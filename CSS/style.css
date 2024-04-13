@@ -1,0 +1,65 @@
+body{
+    background-color: #1a0202a0;
+}
+header{
+    color: #f5f5f5f5;
+    
+}
+.mercado{
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    
+}
+.main-fru{
+    margin-top: 10px;
+    list-style: none;
+    padding-left: 0;
+}
+.main-fru_item{
+    display: inline-block;
+}
+.main-fru_item a{
+    color: #fff;
+    padding: 5px;
+    border-radius: 2px;
+    text-decoration: none;
+}
+.main-fru_item a:hover{
+    color: bisque;
+}
+
+.main-car{
+    margin-top: 10px;
+    list-style: none;
+    padding-left: 0;
+}
+.main-car_item{
+    display: inline-block;
+}
+.main-car_item a{
+    color: #fff;
+    padding: 5px;
+    border-radius: 2px;
+    text-decoration: none;
+}
+.main-car_item a:hover{
+    color: bisque;
+}
+.main-ver{
+    margin-top: 10px;
+    list-style: none;
+    padding-left: 0; 
+}
+.main-ver_item{
+    display: inline-block;
+}
+.main-ver_item a{
+    color: #fff;
+    padding: 5px;
+    border-radius: 2px;
+    text-decoration: none;
+}
+.main-ver_item a:hover{
+    color: bisque;
+}

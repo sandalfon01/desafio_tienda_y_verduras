@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>desafio</title>
+    <link rel="stylesheet" href="./CSS/style.css">
+</head>
+<body>
+    <header>
+        <h1>La lista del mercado</h1>
+    </header>
+    <main class="mercado">
+        <section class="frutas">
+            <ul class="main-fru">
+                <li>Frutas</li>
+                <ol>
+                    <li class="main-fru_item">
+                        <figure>
+                            <a href="https://www.google.com/search?q=receta+con+manzana&rlz=1C1UUXU_esCO1041CO1042&ei=-JlbZJLcEOmYwt0P4oWM6A8&ved=0ahUKEwiSuJLR6-r-AhVpjLAFHeICA_0Q4dUDCA8&uact=5&oq=receta+con+manzana&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQAzIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQ6CwgAEIoFELEDEIMBOgsILhCABBCxAxCDAToLCAAQgAQQsQMQgwE6CwguEIAEEMcBENEDOhEILhCABBCxAxCDARDHARDRAzoOCC4QgAQQsQMQgwEQ1AI6BwgAEIoFEEM6CAgAEIAEELEDOg4IABCABBCxAxCDARDJAzoICAAQgAQQkgNKBAhBGABQAFihJWC4KWgAcAF4AIAB1wGIAcQSkgEGMC4xNy4xmAEAoAEBwAEB&sclient=gws-wiz-serp">Manzana 🍏</a>
+                            <img src="./img/frutas/manzana.jpg" alt="manzana">
+                        </figure>                        
+                    </li>
+                    <li class="main-fru_item">
+                        <figure>
+                            <a href="https://www.google.com/search?q=patacones&rlz=1C1UUXU_esCO1041CO1042&ei=zZlbZK-hEJGVwbkPnoCC4AI&ved=0ahUKEwjvu9G86-r-AhWRSjABHR6AACwQ4dUDCA8&uact=5&oq=patacones&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQAzIHCAAQigUQQzIKCC4QigUQsQMQQzIFCAAQgAQyBQgAEIAEMggIABCABBCxAzIHCAAQigUQQzIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQ6BwguEIoFEEM6DQgAEIoFELEDEIMBEEM6CwgAEIAEELEDEIMBOgsIABCKBRCxAxCDAToKCC4QigUQ1AIQQzoKCC4QsQMQigUQQ0oECEEYAFAAWMgLYMsQaABwAXgAgAGhAYgB5AmSAQMwLjmYAQCgAQHAAQE&sclient=gws-wiz-serp">platano 🍌</a>
+                        <img src="./img/frutas/platano.jpg" alt="platano">
+                        </figure>                        
+                    </li>
+                    <li class="main-fru_item">
+                        <figure>
+                            <a href="https://www.google.com/search?q=receta+con+pi%C3%B1a&rlz=1C1UUXU_esCO1041CO1042&ei=nplbZKrqGvyGwbkPopGVgAI&ved=0ahUKEwiqsaem6-r-AhV8QzABHaJIBSAQ4dUDCA8&uact=5&oq=receta+con+pi%C3%B1a&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQAzIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQ6CggAEEcQ1gQQsAM6CggAEIoFELADEEM6CAgAEIAEELEDSgQIQRgAUM4OWLYVYOYbaANwAXgAgAF-iAHiA5IBAzAuNJgBAKABAcgBCcABAQ&sclient=gws-wiz-serp">piña 🍍</a>
+                            <img src="./img/frutas/piña.jpg" alt="piña">
+                        </figure>                        
+                    </li>
+                    <li class="main-fru_item">
+                        <a href="https://www.google.com/search?q=receta+con+coco&rlz=1C1UUXU_esCO1041CO1042&ei=K5lbZI_tFK-xkvQPiO6EsAY&ved=0ahUKEwjPrrbv6ur-AhWvmIQIHQg3AWYQ4dUDCA8&uact=5&oq=receta+con+coco&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQAzIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQ6BwgAEIoFEEM6CwgAEIoFELEDEIMBOgsILhCABBCxAxCDAToLCAAQgAQQsQMQgwE6EQguEIAEELEDEIMBEMcBENEDOg4ILhCABBCxAxCDARDUAjoHCC4QigUQQzoOCAAQgAQQsQMQgwEQyQM6CAgAEIAEEJIDOggIABCABBCxA0oECEEYAEoFCEASATFQAFi4H2D9JWgAcAF4AIABhwGIAYIOkgEEMC4xNZgBAKABAcABAQ&sclient=gws-wiz-serp">coco 🥥</a>
+                        <img src="./img/frutas/coco.jpg" alt="coco">
+                    </li>
+                </ol>
+            </ul>
+        </section>
+        <section class="carnes">
+            <ul class="main-car">
+                <li>Carnes</li>
+                <ol>
+                    <li class="main-car_item">
+                        <figure>
+                            <a href="https://www.google.com/search?q=cerdocon+res+asado&rlz=1C1UUXU_esCO1041CO1042&ei=25hbZP_aBf2QwbkP7JKD8Ag&ved=0ahUKEwi_tJTJ6ur-AhV9SDABHWzJAI4Q4dUDCA8&uact=5&oq=cerdocon+res+asado&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQAzIKCCEQoAEQwwQQCjoKCAAQRxDWBBCwAzoICCEQoAEQwwRKBAhBGABQoRJYsRpggSBoAnAAeACAAZsBiAHJBZIBAzAuNZgBAKABAcgBCMABAQ&sclient=gws-wiz-serp">cerdo 🐷</a>
+                            <img src="./img/carnes/cerdo.jpg" alt="cerdo">
+                        </figure>                        
+                    </li>
+                    <li class="main-car_item">
+                        <figure>
+                            <a href="https://www.google.com/search?q=receta+con+res+asado&rlz=1C1UUXU_esCO1041CO1042&ei=05hbZLPVHbvPwbkPrJiCwAE&ved=0ahUKEwjzisTF6ur-AhW7ZzABHSyMABgQ4dUDCA8&uact=5&oq=receta+con+res+asado&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQAzIFCCEQoAEyBQghEKABMgUIIRCgATIICCEQFhAeEB0yCAghEBYQHhAdMggIIRAWEB4QHTIICCEQFhAeEB0yCAghEBYQHhAdMggIIRAWEB4QHToKCAAQRxDWBBCwAzoKCAAQigUQsAMQQzoGCAAQFhAeSgQIQRgAUMwEWMMMYIsSaAFwAXgAgAG3AYgBgQeSAQMwLjaYAQCgAQHIAQnAAQE&sclient=gws-wiz-serp">Res 🐮</a>
+                            <img src="./img/carnes/res.jpg" alt="res">
+                        </figure>                        
+                    </li>
+                    <li class="main-car_item">
+                        <figure>
+                            <a href="https://www.google.com/search?q=reseta+con+pollo&rlz=1C1UUXU_esCO1041CO1042&ei=T5NbZKnqAYXqkvQP4NWCmAo&ved=0ahUKEwjpzYKk5er-AhUFtYQIHeCqAKMQ4dUDCA8&uact=5&oq=reseta+con+pollo&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQAzIKCAAQgAQQsQMQCjIHCAAQgAQQCjIHCAAQgAQQCjIHCAAQgAQQCjIHCAAQgAQQCjIHCAAQgAQQCjIHCAAQgAQQCjIHCAAQgAQQCjIHCAAQgAQQCjIHCAAQgAQQCjoKCAAQRxDWBBCwAzoKCAAQigUQsAMQQzoHCAAQigUQQ0oECEEYAEoFCEASATFQ_BBY5RZgtCBoAnAAeACAAY8BiAGXBZIBAzAuNZgBAKABAcgBCsABAQ&sclient=gws-wiz-serp">Pollo 🍗</a>
+                            <img src="./img/carnes/pollo.jpg" alt="pollo">
+                        </figure>                        
+                    </li>
+                    <li class="main-car_item">
+                        <figure>
+                            <a href="https://www.google.com/search?q=reseta+con+pescado&rlz=1C1UUXU_esCO1041CO1042&oq=reseta+con+pescado&aqs=chrome..69i57j0i10i512l9.6455j0j7&sourceid=chrome&ie=UTF-8">pescado 🐟</a>
+                            <img src="./img/carnes/pescado.jpg" alt="pescado">
+                        </figure>                        
+                    </li>
+                </ol>
+            </ul>
+        </section>
+        
+        <section class="verduras">
+            <ul class="main-ver">
+                <li>Verduras</li>
+                <ol>
+                    <li class="main-ver_item">
+                        <figure>
+                            <a href="https://www.google.com/search?q=reseta+con+brocoli&rlz=1C1UUXU_esCO1041CO1042&oq=reseta+con+brocoli&aqs=chrome..69i57j0i10i512l9.13158j1j7&sourceid=chrome&ie=UTF-8">brocoli 🌿</a>
+                            <img src="./img/verduras/brocoli.jpg" alt="brocoli">
+                        </figure>                        
+                    </li>
+                    <li class="main-ver_item">
+                        <figure>
+                            <a href="https://www.google.com/search?q=reseta+con+tomate&rlz=1C1UUXU_esCO1041CO1042&ei=QMJaZO3jBN2JwbkP88iEuA4&ved=0ahUKEwjtg5n0nen-AhXdRDABHXMkAecQ4dUDCA8&uact=5&oq=reseta+con+tomate&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQAzIHCAAQgAQQCjIHCAAQgAQQCjIHCAAQgAQQCjIHCAAQgAQQCjIHCAAQgAQQCjIHCAAQgAQQCjIHCAAQgAQQCjIHCAAQgAQQCjIHCAAQgAQQCjIHCAAQgAQQCjoKCAAQRxDWBBCwAzoKCAAQigUQsAMQQ0oECEEYAEoFCEASATFQ2RBYhxdgxCBoA3AAeACAAZgCiAH8B5IBBTAuNS4xmAEAoAEByAEKwAEB&sclient=gws-wiz-serp">tomate 🍅</a>
+                            <img src="./img/verduras/tomate.jpg" alt="tomate">
+                        </figure>                        
+                    </li>
+                    <li class="main-ver_item">
+                        <figure>
+                            <a href="https://www.google.com/search?q=reseta+con+zanahoria&rlz=1C1UUXU_esCO1041CO1042&ei=isJaZKqdA5yJwbkPlb2r8Ak&ved=0ahUKEwiqiryXnun-AhWcRDABHZXeCp4Q4dUDCA8&uact=5&oq=reseta+con+zanahoria&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQAzIHCAAQgAQQCjIHCAAQgAQQCjIHCAAQgAQQCjIHCAAQgAQQCjIHCAAQgAQQCjIHCAAQgAQQCjIHCAAQgAQQCjIHCAAQgAQQCjIHCAAQgAQQCjIHCAAQgAQQCjoKCAAQRxDWBBCwAzoKCAAQigUQsAMQQ0oECEEYAEoFCEASATFQ4wpYxhlg_SVoAnAAeACAAZABiAHFCZIBAzAuOZgBAKABAcgBCsABAQ&sclient=gws-wiz-serp">zanahoria 🥕</a>
+                            <img src="./img/verduras/zanahoria.jpg" alt="zanahoria">
+                        </figure>                        
+                    </li>
+                    <li class="main-ver_item">
+                        <figure>
+                            <a href="https://www.google.com/search?q=receta+con+limon&rlz=1C1UUXU_esCO1041CO1042&ei=rsJaZJeyBYzMwbkPoLOF6AQ&ved=0ahUKEwiXwdOonun-AhUMZjABHaBZAU0Q4dUDCA8&uact=5&oq=receta+con+limon&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQAzIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBggAEBYQHjIGCAAQFhAeMgYIABAWEB46BAgAEEdKBAhBGABKBQhAEgExUJQJWJUPYIQUaABwA3gAgAGMAYgBjgWSAQMwLjWYAQCgAQHIAQjAAQE&sclient=gws-wiz-serp">Limón 🍋</a>
+                            <img src="./img/verduras/limon.jpg" alt="limon">
+                        </figure>                        
+                    </li>
+                </ol>
+            </ul>
+        </section>
+        
+    </main>
+    
+</body>
+</html>
